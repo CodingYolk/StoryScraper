@@ -21,7 +21,7 @@ def scrape_wattpad_reading_list(url):
 file_path = input("Enter the file path to save the links (e.g., C:/path/to/file.txt): ")
 
 # Example reading list URL
-reading_list_url = 'https://www.wattpad.com/list/900364379'
+reading_list_url = 'https://www.wattpad.com/list/75170794-paranormal-romance-'
 
 # Scrape the story URLs
 story_urls = scrape_wattpad_reading_list(reading_list_url)
